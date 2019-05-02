@@ -168,21 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.header-funbus {
+.nav-funbus {
   max-width: 100%;
   width: 56%;
   margin: auto;
   padding-top: 35px;
   border-bottom: 1.5px dashed gray;
 }
-.header-funbus header {
+.nav-funbus header {
   display: flex;
   justify-content: space-between;
 }
-.header-funbus header nav {
+.nav-funbus header nav {
   padding-right: 30px;
 }
-.header-funbus header nav a {
+.nav-funbus header nav a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
@@ -244,4 +244,18 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.header-funbus {
+  max-width: 100%;
+  width: 56%;
+  margin: auto;
+  border-bottom: 1.5px dashed gray;
+}
+.header-funbus header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-funbus header img {
+  padding-bottom: 40px;
 }
